@@ -1,0 +1,64 @@
+.head{
+    color: rgb(75, 73, 73);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+
+}
+
+span{
+    color: black;
+    background-color: aliceblue;
+}
+
+body{
+    background : url("piano.jpg");
+    background-size: cover;
+}
+
+.form{
+    max-width: 550px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgb(12, 12, 12);
+    box-sizing: border-box;
+    padding: 50px;
+    color: black;
+    margin-top: 100px;
+
+}
+
+input[type=text],input[type=password]{
+ width: 100px;
+ box-sizing: border-box;
+ padding: 2px;
+ background-color: rgb(12, 12, 12);
+ outline: none;
+ border: none;
+ border-bottom: 1px solid gray;
+ color: aliceblue;
+ border-radius: 2px;
+ margin: 10px;
+ font-weight: bold;
+
+}
+
+input[type=submit]{
+    width: 100px;
+    box-sizing: border-box;
+    padding: 10px 0px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    background-color: gray;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s;
+    margin-left: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: aliceblue;
+}
